@@ -11,6 +11,7 @@
 		ECD00D932AD2878A007129B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD00D922AD2878A007129B1 /* ContentView.swift */; };
 		ECD00D952AD2878D007129B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD00D942AD2878D007129B1 /* Assets.xcassets */; };
 		ECD00D982AD2878D007129B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD00D972AD2878D007129B1 /* Preview Assets.xcassets */; };
+		ECD00D9F2AD287DA007129B1 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD00D9E2AD287DA007129B1 /* DataPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ECD00D922AD2878A007129B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECD00D942AD2878D007129B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECD00D972AD2878D007129B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECD00D9E2AD287DA007129B1 /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				ECD00D902AD2878A007129B1 /* SwiftUIChartsPracticeApp.swift */,
 				ECD00D922AD2878A007129B1 /* ContentView.swift */,
+				ECD00D9E2AD287DA007129B1 /* DataPoint.swift */,
 				ECD00D942AD2878D007129B1 /* Assets.xcassets */,
 				ECD00D962AD2878D007129B1 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD00D9F2AD287DA007129B1 /* DataPoint.swift in Sources */,
 				ECD00D932AD2878A007129B1 /* ContentView.swift in Sources */,
 				ECD00D912AD2878A007129B1 /* SwiftUIChartsPracticeApp.swift in Sources */,
 			);
