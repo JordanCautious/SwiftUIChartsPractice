@@ -34,20 +34,25 @@ struct ContentView: View {
     
     var body: some View {
         
-        Chart {
+        VStack {
+            Text("A Basic SWiftUI Bar Chart")
+                .font(.title3)
+                .bold()
             
-            ForEach(data) { d in
+            Chart {
                 
-                BarMark(x: .value("Day", d.day), y: .value("Hours", d.hours))
-                    .annotation (position: .overlay) {
-                        Text(String(d.hours)+"h")
-                            .bold()
-                    }
-                    .foregroundStyle(by: .value("Type", d.type))
+                ForEach(data) { d in
+                    
+                    BarMark(x: .value("Day", d.day), y: .value("Hours", d.hours))
+                        .annotation (position: .overlay) {
+                            Text(String(d.hours)+"h")
+                                .bold()
+                        }
+                        .foregroundStyle(by: .value("Type", d.type))
+                }
             }
+            .padding()
         }
-        .padding()
-        .chartYScale(range: .plotDimension(padding: 60))
     }
 }
 
